@@ -35,6 +35,7 @@ export const Form = styled.form`
     width: 400px;
     padding: 0 10px;
     color: #3a3a3a;
+    font-size: 20px;
 
     &::placeholder {
       color: #a8a8b3;
@@ -50,6 +51,7 @@ export const Form = styled.form`
     color: #fff;
     font-weight: bold;
     transition: background-color 200ms;
+    font-size: 20px;
 
     &:hover {
       background: ${shade(0.2, '#16D377')};
