@@ -8,4 +8,5 @@ export const Container = styled.header`
   margin-bottom: 10px;
   box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
   max-width: 250px;
+  cursor: grab;
 `;
