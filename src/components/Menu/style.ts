@@ -23,6 +23,6 @@ export const Header = styled.header`
 
     position: absolute;
     top: 30px;
-    right: 20px;
+    right: 30px;
   }
 `;
