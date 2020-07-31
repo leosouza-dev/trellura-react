@@ -1,7 +1,14 @@
 import React from 'react';
 
+import Menu from '../../components/Menu';
+
 const Repository: React.FC = () => {
-  return <h1>Board</h1>;
+  return (
+    <>
+      <Menu />
+      <h1>Board</h1>
+    </>
+  );
 };
 
 export default Repository;

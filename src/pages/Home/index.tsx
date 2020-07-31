@@ -1,7 +1,22 @@
 import React from 'react';
 
+import { Form, Mensagem } from './style';
+import Menu from '../../components/Menu';
+
 const Repository: React.FC = () => {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <Menu />
+
+      <Mensagem>Bem vinda/o ao Trellura!</Mensagem>
+
+      <Form>
+        <h1>Entrar no Board</h1>
+        <input type="text" placeholder="Digite o seu nome" />
+        <button type="submit">Entrar</button>
+      </Form>
+    </>
+  );
 };
 
 export default Repository;

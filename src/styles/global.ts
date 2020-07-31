@@ -17,11 +17,11 @@ export default createGlobalStyle`
     font: 16px Roboto, sans-serif;
   }
 
-  #root{
+  /* #root{
     max-width: 960px;
     margin: 0 auto;
     padding: 40px 20px;
-  }
+  } */
 
   button{
     cursor: pointer;
