@@ -54,4 +54,5 @@ export const Form = styled.form`
     &:hover {
       background: ${shade(0.2, '#16D377')};
     }
+  }
 `;
