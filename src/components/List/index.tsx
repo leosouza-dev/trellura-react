@@ -14,9 +14,9 @@ const List: React.FC<ListProps> = ({ title }) => {
       <h1>{title}</h1>
 
       <ul>
-        <Card />
-        <Card />
-        <Card />
+        <Card title="Finalizar curso" />
+        <Card title="Gravar vídeo" />
+        <Card title="Estudar mais React" />
       </ul>
 
       <a href="/teste">Adicionar cartão</a>

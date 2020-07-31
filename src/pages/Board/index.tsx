@@ -2,6 +2,7 @@ import React from 'react';
 
 import Menu from '../../components/Menu';
 import List from '../../components/List';
+import OnlineList from '../../components/OnlineList';
 import { Container } from './style';
 
 const Repository: React.FC = () => {
@@ -16,7 +17,7 @@ const Repository: React.FC = () => {
           <List title="Feito" />
         </div>
         <div>
-          <List title="" />
+          <OnlineList />
         </div>
       </Container>
     </>

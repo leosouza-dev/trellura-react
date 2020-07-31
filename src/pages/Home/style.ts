@@ -4,6 +4,7 @@ import { shade } from 'polished';
 export const Mensagem = styled.span`
   /* background-color: ${shade(0.2, '#04d361')}; */
   background-color: #16D377;
+  box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
   color: white;
   max-width: 700px;
   font-size: 20px;
@@ -18,6 +19,8 @@ export const Mensagem = styled.span`
 
 export const Form = styled.form`
   background-color: ${shade(0.1, 'white')};
+  box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
+
   color: #4a535a;
   max-width: 700px;
   margin-left: auto;

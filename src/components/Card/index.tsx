@@ -1,12 +1,16 @@
-import React, { Props } from 'react';
+import React from 'react';
 
 import { Container } from './style';
 
-const Card: React.FC = () => {
+interface CardProps {
+  title: string;
+}
+
+// eslint-disable-next-line react/prop-types
+const Card: React.FC<CardProps> = ({ title }) => {
   return (
     <Container>
-      {/* <p>{title}</p> */}
-      <p>Tarefa para ser realizada</p>
+      <p>{title}</p>
     </Container>
   );
 };
