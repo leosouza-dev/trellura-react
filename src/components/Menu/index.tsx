@@ -5,25 +5,8 @@ import * as signalR from '@microsoft/signalr';
 import { Header } from './style';
 
 const connection: signalR.HubConnection = new signalR.HubConnectionBuilder()
-  .withUrl('http://localhost:5000/trellurahub')
-  // .withAutomaticReconnect([
-  //   0,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   3000,
-  //   5000,
-  //   10000,
-  //   15000,
-  //   30000,
-  // ])
+  // .withUrl('http://localhost:5000/trellurahub')
+  .withUrl('https://trellurateste.herokuapp.com/trellurahub')
   .build();
 
 const Menu: React.FC = () => {
